@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    margin: auto;
+    background-color: #EFEFEF;
+}
+.head {
+    height: 5px;
+    background-color: #BFBFBF;
+}
+.credit {
+    text-align: center;
+    padding: 10px;
+    height: 80px;
+    font-style: italic;
+}
+.elem1 {
+    background-color: #6F98A8;
+}
+.elem2 {
+    background-color: #2B8EAD;
+}
+.elem3 {
+    background-color: #2F454E;
+}
+.elem4 {
+    background-color: #2B8EAD;
+}
+.elem5 {
+    background-color: #2F454E;
+}
+.elem6 {
+    background-color: #BFBFBF;
+}
+.elem7 {
+    background-color: #BFBFBF;
+}
+.elem8 {
+    background-color: #6F98A8;
+}
+.elem9 {
+    background-color: #2F454E;
+}
+.btn {
+    display: block;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    line-height: 27px;
+    background: #72C3DC;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    color: #EFEFEF;
+    /*box-shadow: 0 10px 10px -10px #000000;*/
+    border-bottom: 5px solid #2B8EAD;
+    cursor: pointer;
+}
+
+#main {
+    width: 960px;
+    clear: both;
+}
+.header {
+    text-align: center;
+}
+#box {
+    width: 75%;
+    float: left;
+}
+.btn-grp {
+    width: 25%;
+    float: left;
+}
+.btn-grp a {
+    margin-left: auto;
+    margin-right: auto;
+}
+.elem {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.elem p {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+.row {
+    clear: both;
+}
+
+/* For Mobile */
+@media screen and (max-width: 375px) {
+
+}
+
+/* For Desktop */
+@media screen and (min-width: 961px) {
+
+}

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    margin: auto;
+}
+.head {
+    height: 5px;
+    background-color: #BFBFBF;
+}
+.credit {
+    text-align: center;
+    padding: 10px;
+    height: 80px;
+    font-style: italic;
+}
+.elem1 {
+    border-left: 10px solid #6F98A8;
+}
+.elem2 {
+    border-left: 10px solid #2B8EAD;
+}
+.elem3 {
+    border-left: 10px solid #2F454E;
+}
+.elem4 {
+    border-left: 10px solid #2B8EAD;
+}
+.elem5 {
+    border-left: 10px solid #2F454E;
+}
+.elem6 {
+    border-left: 10px solid #BFBFBF;
+}
+.elem7 {
+    border-left: 10px solid #BFBFBF;
+}
+.elem8 {
+    border-left: 10px solid #6F98A8;
+}
+.elem9 {
+    border-left: 10px solid #2F454E;
+}
+.btn {
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    line-height: 27px;
+    background: #72C3DC;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    color: #EFEFEF;
+    /*box-shadow: 0 10px 10px -10px #000000;*/
+    border-bottom: 5px solid #2B8EAD;
+    cursor: pointer;
+}
+
+#main {
+    width: 375px;
+    clear: both;
+}
+.header {
+    text-align: center;
+    color: #EFEFEF;
+    background-color: #333333;
+    padding: 5px;
+    font-size: 20px;
+}
+#box {
+    width: 100%;
+}
+.btn-grp div {
+    width: 50%;
+    float: left;
+}
+.elem {
+    width: 98%;
+    float: left;
+    text-align: center;
+    background-color: #EFEFEF;
+    margin-bottom: 5px;
+}
+.elem p {
+    color: #000000;
+    font-size: 20px;
+}
+
